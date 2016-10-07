@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="pullrefresh_fresh_height">80dp</dimen> <!-- 下拉多长距离放开可刷新-->
+    <dimen name="pullrefresh_head_content_height">60dp</dimen><!-- 刷新中viewHead显示的高度-->
+</resources>
