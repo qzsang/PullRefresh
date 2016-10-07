@@ -2,7 +2,9 @@
 这是一个简单的RecyclerView下拉刷新控件，在RecyclerView上实现平常ListView下拉刷新的效果。
 
 需求来源：RecyclerView出现后，众多的新特性让我们逐渐用它来取代ListView。
-但是RecyclerView的下拉刷新方式和原来的ListView差异太大。
+但是用过RecyclerView的人都知道，RecyclerView下拉刷新的方式于与ListView相差有点大，
+虽然官方已经提供了SwipeRefreshLayout来支持下拉刷新，但是我们的设计稿还是停留在原来ListView刷新的样式上。
+这个问题很尴尬。。
 
 优点：无需修改RecyclerView
 
