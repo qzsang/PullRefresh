@@ -45,9 +45,10 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void run() {
                                 Toast.makeText(MainActivity.this, "刷新完成", Toast.LENGTH_SHORT).show();
-                                refresh.finishRefresh();//刷新完成
                                 listAdapter.size += 2;
                                 listAdapter.notifyDataSetChanged();
+
+                                refresh.finishRefresh();//刷新完成
                             }
                         });
 
