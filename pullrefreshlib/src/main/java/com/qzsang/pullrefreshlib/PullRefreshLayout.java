@@ -21,7 +21,7 @@ public class PullRefreshLayout extends LinearLayout implements NestedScrollingPa
     private PullRefreshHeader mPullRefreshHeader;//头
     private RecyclerView mRecyclerView;
     private int mHeaderViewHeight;//mPullRefreshHeader高度
-    private double rate = 0.7;//阻率
+    private double rate = 0.6;//阻率
     private OverScroller mScroller;
     public final static int SCROLL_DURATION = 500;//回滚时间
     private int freshHeight;//下拉多长距离刷新  一定要小于 mHeaderViewHeight
